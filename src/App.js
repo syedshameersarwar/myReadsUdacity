@@ -84,7 +84,6 @@ class App extends Component{
   
     
     updateShelfRemote = (bookObj,oldShelf,newShelf) => {  
-        console.log("ufh");
         this.updateShelfOnly(bookObj,newShelf);
         
         BooksAPI.get(bookObj.id)
@@ -111,7 +110,7 @@ class App extends Component{
     render(){
         
         const {books,currentlyReading,wantToRead,read} = this.state;
-        console.log('rendering home');
+    
 
         return(
             <div className = 'App'>
