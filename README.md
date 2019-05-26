@@ -1,7 +1,7 @@
 ﻿MyReads - React Nanodegree Udacity Project
 
 
-Deployed on heroku:
+Deployed on heroku: https://reactmyreads.herokuapp.com/
 
 
 Books API: https://reactnd-books-api.udacity.com
